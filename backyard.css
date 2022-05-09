@@ -1,0 +1,76 @@
+.keybord_body {
+    display: block;
+    max-width: 1000px;
+    background-color: #8effeca4;
+    padding:5px;
+    border: 5px aquamarine solid;
+}
+.keyboard_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    width: 50px;
+    height: 50px;
+    border: 3px solid aquamarine;
+    margin: 3px;
+    padding: 3px;
+    background-color: #cafff8;
+    border-radius: 15px;
+     float: left; 
+     font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    color: #272727a4;
+    box-shadow: 0px 3px 9px 0px rgba(143, 199, 204, 1);
+}
+.hidden{
+    z-index: -1;
+    opacity: 0;
+    display: none;
+}
+.active{
+
+    background-color: #79fdee;
+    border: 3px #4cead5 solid;
+    border-radius: 15px;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.actives{
+
+    background-color: #4cead5;
+    border: 3px #4cead5 solid;
+    border-radius: 15px;
+}
+.rus > span{
+
+    text-align: center;
+ 
+ }
+.textarea{
+    width: 1000px;
+    height: 200px;
+}
+.Backspace{
+ width: 200px;
+}
+.Tab{
+    width: 100px;
+}
+.CapsLock{
+    width: 140px;
+}
+.Enter{
+    width: 150px;
+}
+.ShiftRight{
+    width: 131px;
+}
+.ShiftLeft{
+    width: 200px;
+}
+.Space{
+    width: 500px;
+}
